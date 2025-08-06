@@ -19,7 +19,7 @@ async function generateCaption(base64ImageFile) {
     contents: contents,
     config: {
       systemInstruction:
-        "You are an expert image captioning assistant. Your task is to generate captions for images that are precise, factually accurate, contextually relevant, and professionally worded also use hashtags and emojis.",
+        "Generate a creative and engaging caption for the given image suitable for Social Media.",
     },
   });
   return response.text;
